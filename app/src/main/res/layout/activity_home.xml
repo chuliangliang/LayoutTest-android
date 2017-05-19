@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  android:id="@+id/home_root"  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width ="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_1"
+        android:textAllCaps="false"
+        android:text="线性布局(横向)"
+        android:onClick="btn_h_linelayout"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_2"
+        android:textAllCaps="false"
+        android:text="线性布局(竖向)"
+        android:onClick="btn_v_linelayout"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_3"
+        android:textAllCaps="false"
+        android:onClick="btn_relativeLayout"
+        android:text="相对布局"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_4"
+        android:textAllCaps="false"
+        android:onClick="btn_frameLayout"
+        android:text="帧布局"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="百分比布局"
+            android:onClick="btn_percentFrameLayout"
+            android:layout_gravity="top"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按钮2"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
